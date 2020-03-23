@@ -63,10 +63,12 @@
     background-color: #d2d2d2;
     height: 90px;
     padding: 20px 40px;
+    display: flex;
     &__new-message {
+      width: 100%;
+      height: 50px;
+      display: flex;
       &__input-box {
-        display: flex;
-        width: 100%;
         position: relative;
         &__text {
           height: 50px;
@@ -86,17 +88,17 @@
             display: none;
           }
         }
-        &__submit-btn {
-          width: 100px;
-          height: 50px;
-          padding: 0 30px;
-          margin-left: 2.5%;
-          background-color: #38AEF0;
-          color:white;
-          line-height: 50px;
-          text-align: center;
-          cursor: pointer;
-        }
+      }
+      &__submit-btn {
+        width: 100px;
+        height: 50px;
+        padding: 0 30px;
+        margin-left: 2.5%;
+        background-color: #38AEF0;
+        color:white;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer;
       }
     }
   }

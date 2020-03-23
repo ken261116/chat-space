@@ -42,7 +42,10 @@
     padding: 20px 20px 0 20px;
     &__box {
       height: 91px;
-      color:#ffffff;
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
       &__name {
         font-size: 15px;
         margin-bottom: 5px;
